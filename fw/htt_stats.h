@@ -11933,7 +11933,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_CAL_DATA_COMPRESSED_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_CAL_DATA_COMPRESSED, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_CAL_DATA_COMPRESSED_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_CAL_DATA_COMPRESSED_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_CAL_DATA_SOURCE_M 0x00000006
 #define HTT_STATS_PHY_RESET_CAL_DATA_SOURCE_S 1
@@ -11943,7 +11943,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_CAL_DATA_SOURCE_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_CAL_DATA_SOURCE, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_CAL_DATA_SOURCE_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_CAL_DATA_SOURCE_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_XTALCAL_M 0x00000008
 #define HTT_STATS_PHY_RESET_XTALCAL_S 3
@@ -11953,7 +11953,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_XTALCAL_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_XTALCAL, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_XTALCAL_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_XTALCAL_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_TPCCAL2GOPC_M 0x00000010
 #define HTT_STATS_PHY_RESET_TPCCAL2GOPC_S 4
@@ -11963,7 +11963,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_TPCCAL2GOPC_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_TPCCAL2GOPC, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_TPCCAL2GOPC_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_TPCCAL2GOPC_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_TPCCAL2GFPC_M 0x00000020
 #define HTT_STATS_PHY_RESET_TPCCAL2GFPC_S 5
@@ -11973,7 +11973,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_TPCCAL2GFPC_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_TPCCAL2GFPC, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_TPCCAL2GFPC_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_TPCCAL2GFPC_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_TPCCAL5GOPC_M 0x00000040
 #define HTT_STATS_PHY_RESET_TPCCAL5GOPC_S 6
@@ -11983,7 +11983,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_TPCCAL5GOPC_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_TPCCAL5GOPC, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_TPCCAL5GOPC_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_TPCCAL5GOPC_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_TPCCAL5GFPC_M 0x00000080
 #define HTT_STATS_PHY_RESET_TPCCAL5GFPC_S 7
@@ -11993,7 +11993,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_TPCCAL5GFPC_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_TPCCAL5GFPC, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_TPCCAL5GFPC_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_TPCCAL5GFPC_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_TPCCAL6GOPC_M 0x00000100
 #define HTT_STATS_PHY_RESET_TPCCAL6GOPC_S 8
@@ -12003,7 +12003,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_TPCCAL6GOPC_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_TPCCAL6GOPC, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_TPCCAL6GOPC_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_TPCCAL6GOPC_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_TPCCAL6GFPC_M 0x00000200
 #define HTT_STATS_PHY_RESET_TPCCAL6GFPC_S 9
@@ -12013,7 +12013,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_TPCCAL6GFPC_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_TPCCAL6GFPC, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_TPCCAL6GFPC_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_TPCCAL6GFPC_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_RXGAINCAL2G_M 0x00000400
 #define HTT_STATS_PHY_RESET_RXGAINCAL2G_S 10
@@ -12023,7 +12023,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_RXGAINCAL2G_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_RXGAINCAL2G, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_RXGAINCAL2G_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_RXGAINCAL2G_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_RXGAINCAL5G_M 0x00000800
 #define HTT_STATS_PHY_RESET_RXGAINCAL5G_S 11
@@ -12033,7 +12033,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_RXGAINCAL5G_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_RXGAINCAL5G, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_RXGAINCAL5G_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_RXGAINCAL5G_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_RXGAINCAL6G_M 0x00001000
 #define HTT_STATS_PHY_RESET_RXGAINCAL6G_S 12
@@ -12043,7 +12043,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_RXGAINCAL6G_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_RXGAINCAL6G, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_RXGAINCAL6G_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_RXGAINCAL6G_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_AOACAL2G_M 0x00002000
 #define HTT_STATS_PHY_RESET_AOACAL2G_S 13
@@ -12053,7 +12053,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_AOACAL2G_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_AOACAL2G, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_AOACAL2G_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_AOACAL2G_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_AOACAL5G_M 0x00004000
 #define HTT_STATS_PHY_RESET_AOACAL5G_S 14
@@ -12063,7 +12063,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_AOACAL5G_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_AOACAL5G, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_AOACAL5G_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_AOACAL5G_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_AOACAL6G_M 0x00008000
 #define HTT_STATS_PHY_RESET_AOACAL6G_S 15
@@ -12073,7 +12073,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_AOACAL6G_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_AOACAL6G, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_AOACAL6G_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_AOACAL6G_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_XTAL_FROM_OTP_M 0x00010000
 #define HTT_STATS_PHY_RESET_XTAL_FROM_OTP_S 16
@@ -12083,7 +12083,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_XTAL_FROM_OTP_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_XTAL_FROM_OTP, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_XTAL_FROM_OTP_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_XTAL_FROM_OTP_S)); \
     } while (0)
 
 #define HTT_STATS_PHY_RESET_GLUT_LINEARITY_M 0x000000FF
@@ -12094,7 +12094,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_GLUT_LINEARITY_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_GLUT_LINEARITY, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_GLUT_LINEARITY_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_GLUT_LINEARITY_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_PLUT_LINEARITY_M 0x0000FF00
 #define HTT_STATS_PHY_RESET_PLUT_LINEARITY_S 8
@@ -12104,7 +12104,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_PLUT_LINEARITY_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_PLUT_LINEARITY, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_PLUT_LINEARITY_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_PLUT_LINEARITY_S)); \
     } while (0)
 #define HTT_STATS_PHY_RESET_WLANDRIVERMODE_M 0x00FF0000
 #define HTT_STATS_PHY_RESET_WLANDRIVERMODE_S 16
@@ -12114,7 +12114,7 @@ typedef htt_stats_phy_stats_tlv htt_phy_stats_tlv;
 #define HTT_STATS_PHY_RESET_WLANDRIVERMODE_SET(_var, _val) \
     do { \
         HTT_CHECK_SET_VAL(HTT_STATS_PHY_RESET_WLANDRIVERMODE, _val); \
-        ((_var) |= ((_val) << STATS_PHY_RESET_WLANDRIVERMODE_S)); \
+        ((_var) |= ((_val) << HTT_STATS_PHY_RESET_WLANDRIVERMODE_S)); \
     } while (0)
 
 
